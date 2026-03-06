@@ -14,17 +14,17 @@ export default function Home() {
   const systemImages = [
     {
       id: 1,
-      title: 'Gestión de Citas',
+      title: 'Dashboard',
       src: '/portfolio/screenone.png'
     },
     {
       id: 2,
-      title: 'Dashboard',
+      title: 'Gestión de Citas',
       src: '/portfolio/screentwo.png'
     },
     {
       id: 3,
-      title: 'Confirmación',
+      title: 'Agenda Cita Automatica',
       src: '/portfolio/screent.png'
     },
   ];
@@ -112,9 +112,9 @@ export default function Home() {
                 {systemImages[currentImageIndex].title}
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                {currentImageIndex === 0 && 'Accede a un calendario intuitivo donde visualizas todas tus citas, bloques horarios y disponibilidad en tiempo real.'}
-                {currentImageIndex === 1 && 'Panel de control completo con estadísticas, seguimiento de pacientes y resumen de tu actividad.'}
-                {currentImageIndex === 2 && 'Tus pacientes reciben confirmaciones automáticas y recordatorios para evitar ausencias.'}
+                {currentImageIndex === 0 && 'Panel de control completo con estadísticas, seguimiento de pacientes y resumen de tu actividad.'}
+                {currentImageIndex === 1 && ' Accede a un calendario intuitivo donde visualizas todas tus citas, bloques horarios y disponibilidad'}
+                {currentImageIndex === 2 && 'Tus pacientes pueden agendarse manualmente sin problema.'}
               </p>
 
               <div className="flex items-center gap-4 justify-between">
