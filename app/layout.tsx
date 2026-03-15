@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: '$FacilCitas - Sistema de Citas',
+  title: 'FacilCitas - Sistema de Citas',
   description: 'Plataforma profesional de gestión de citas Reservas, calendario y seguimiento de pacientes en un solo lugar.',
   generator: 'v0.app',
   icons: {
