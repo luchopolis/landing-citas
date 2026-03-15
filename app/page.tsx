@@ -74,10 +74,10 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl sm:text-6xl font-bold text-foreground mb-6 leading-tight">
             Gestión de Citas
-            <span className="block text-primary">Simplificada para Psicólogos</span>
+            <span className="block text-primary">Sistema para simplificar gestión de citas</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-            Olvídate de las agendas complicadas. Ofrece a tus pacientes reservas en línea con calendario compartido.
+            Ofrece a tus clientes una manera facil para poder agendar y facilitar este proceso.
           </p>
           <div className="flex justify-center">
             <Button 
@@ -112,7 +112,7 @@ export default function Home() {
                 {systemImages[currentImageIndex].title}
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                {currentImageIndex === 0 && 'Panel de control completo con estadísticas, seguimiento de pacientes y resumen de tu actividad.'}
+                {currentImageIndex === 0 && 'Dashboard simplificado para mostrar la información necesaria de tus clientes y citas'}
                 {currentImageIndex === 1 && ' Accede a un calendario intuitivo donde visualizas todas tus citas, bloques horarios y disponibilidad'}
                 {currentImageIndex === 2 && 'Tus pacientes pueden agendarse manualmente sin problema.'}
               </p>
@@ -168,7 +168,7 @@ export default function Home() {
                 Sistema de Reserva
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Tus pacientes pueden agendar sus citas en línea a través de un link personalizado, disponible 24/7.
+                Tus clientes pueden agendar sus citas en línea a través de un link personalizado, disponible 24/7.
               </p>
             </Card>
 
@@ -180,19 +180,7 @@ export default function Home() {
                 Calendario Compartido
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Visualiza tu disponibilidad de forma clara. Los pacientes ven solo los horarios que realmente estás disponible.
-              </p>
-            </Card>
-
-            <Card className="p-8 border border-border hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <Lock className="w-6 h-6 text-primary" />
-              </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">
-                Privacidad Garantizada
-              </h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Cumplimos con estándares de privacidad médica. Tus datos y los de tus pacientes están protegidos.
+                Visualiza tu disponibilidad de forma clara. Los clientes ven solo los horarios que realmente estás disponible.
               </p>
             </Card>
 
@@ -215,7 +203,7 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-card/50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-12 text-center">
-            Nuestros Clientes Confían en Nosotros
+            Clientes actuales
           </h2>
 
           <div className="bg-white rounded-2xl shadow-lg p-12">
@@ -345,7 +333,7 @@ export default function Home() {
               <span className="font-bold text-foreground">{AppName}</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              La plataforma de gestión de citas para psicólogos profesionales.
+              
             </p>
           </div>
 
