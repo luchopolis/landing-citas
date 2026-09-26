@@ -35,7 +35,7 @@ export default function Home() {
       id: 1,
       name: 'Psic. Alexia Guadalupe Coronado Mendez',
       logo: 'https://appoiments-psycho-front-1eee.onrender.com/assets/logo-BXtPBxiW.png',
-      url: 'https://appoiments-psycho-front-1eee.onrender.com/admin/calendar'
+      url: 'https://www.instagram.com/psic_alexia_gpe_coronado_m/'
     },
   ];
 
